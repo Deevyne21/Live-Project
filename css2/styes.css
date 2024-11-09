@@ -427,7 +427,7 @@ html {
   }
   .footer-container {
     width: 80%;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
   }
   .footer-box {
