@@ -368,6 +368,7 @@ html {
   }
   .navbar ul {
     display: inline-block;
+    justify-content: space-around;
   }
   .home {
     flex-direction: row;
@@ -427,9 +428,10 @@ html {
   }
   .footer-container {
     width: 80%;
-    flex-direction: column;
+    flex-basis: 50%;
     align-items: center;
     text-align: center;
+    justify-content: center;
     position: relative;
   }
   h3 {
